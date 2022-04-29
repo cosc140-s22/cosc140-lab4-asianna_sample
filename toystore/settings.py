@@ -27,7 +27,8 @@ SECRET_KEY = 'django-insecure-ehu47$em41%3vc5z5)$x+1y1vh-e*u@kv5*0!#bju-#i@+96+)
 DEBUG = True
 
 # repl.it happiness
-ALLOWED_HOSTS = ['*']
+ALLOWED_HOSTS = ['https://cosc140-lab4-asiannasample.mattrojas.repl.co', '*']
+CSRF_TRUSTED_ORIGINS = ['https://cosc140-lab4-asiannasample.mattrojas.repl.co']
 X_FRAME_OPTIONS = '*'
 
 
